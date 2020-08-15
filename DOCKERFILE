@@ -2,6 +2,7 @@
 # Get base image #
 ##################
 FROM python:alpine
+LABEL maintainer="github@krushak.me"
 
 ###############################
 # Install system dependencies #
