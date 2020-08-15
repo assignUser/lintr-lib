@@ -24,3 +24,4 @@ RUN apk add --update --no-cache \
 # Install lintr & dependencies #
 ################################
 RUN R -e "install.packages(c('lintr'), repos = 'https://cloud.r-project.org/')"
+
