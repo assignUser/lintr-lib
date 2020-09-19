@@ -23,5 +23,5 @@ RUN apk add --update --no-cache \
 ################################
 # Install lintr & dependencies #
 ################################
-RUN Rscript -e "install.packages(c('devtools'), repos = 'https://cloud.r-project.org/');devtools::install_github('assignUser/lintr')"
+RUN Rscript -e "install.packages(c('lintr'), repos = 'https://cloud.r-project.org/')"
 
